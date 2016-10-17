@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_generate_loops"
+            android:title="Generate Loops" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_how_it_works"
+            android:title="How It Works" />
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_saved_loops"
+                android:title="Saved Loops" />
+            <item
+                android:id="@+id/nav_preferences"
+                android:title="Preferences" />
+        </menu>
+    </item>
+
+</menu>
